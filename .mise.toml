@@ -1,0 +1,5 @@
+[tools]
+node = "25.2.1"
+
+[env]
+MISE_NODE_COREPACK = true
