@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: system-ui, sans-serif;
+  font-feature-settings: "vkrn";
+  font-size: 8.25pt;
+  font-weight: 400;
+  line-break: loose;
+  text-rendering: optimizeLegibility;
+  text-orientation: upright;
+  writing-mode: vertical-rl;
+}
+
+@page {
+  size: JIS-B5;
+  margin-top: 15mm;
+  margin-bottom: 15mm;
+}
+
+@page :right {
+  margin-right: 15mm;
+  margin-left: 20mm;
+}
+
+@page :left {
+  margin-right: 20mm;
+  margin-left: 15mm;
+}
+
+.topics {
+  column-count: 2;
+  column-fill: auto;
+  column-gap: 11mm;
+  column-rule: 0.2mm solid rgba(0, 0, 0, 0.1);
+  column-width: 103mm;
+}
+
+.topicName {
+  margin: 0;
+  padding: 1em;
+  border: 0.15mm solid #000;
+  border-radius: 0.2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.chapterName {
+  margin: 3em 1em;
+  font-weight: bold;
+  text-orientation: sideways;
+}
+
+.chapterBody {
+  hanging-punctuation: allow-end;
+}
+
+.chapterBody p {
+  margin: 0;
+  line-height: 1.82;
+  text-indent: 1em;
+}
+
+.chapterBody hr {
+  width: 1.5rem;
+  height: 100%;
+  border: none;
+  outline: none;
+}
+
+.chapter:nth-of-type(4) {
+  break-before: column;
+}
