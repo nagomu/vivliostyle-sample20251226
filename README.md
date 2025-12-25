@@ -28,6 +28,7 @@ npm run preview
 | <img alt="スクリーンショット" src="./docs/01.png" width="500"> | <img alt="スクリーンショット" src="./docs/02.png" width="500"> |
 
 **消える要素**
+https://github.com/nagomu/vivliostyle-sample20251226/blob/b437ffd8f6ad2d0c64e770c13ed2a3f33fe33665/sample01/index.html#L82-L85
 
 <img alt="スクリーンショット " src="./docs/03-a.png">
 
