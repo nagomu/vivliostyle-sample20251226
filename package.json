@@ -2,6 +2,9 @@
   "name": "vivliostyle-sample20251226",
   "version": "0.0.1",
   "private": true,
+  "scripts": {
+    "preview": "vivliostyle preview -c ./sample01/vivliostyle.config.js"
+  },
   "dependencies": {
     "@vivliostyle/cli": "10.2.0"
   }
