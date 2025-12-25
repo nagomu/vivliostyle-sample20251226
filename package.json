@@ -1,0 +1,8 @@
+{
+  "name": "vivliostyle-sample20251226",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@vivliostyle/cli": "10.2.0"
+  }
+}
